@@ -1,0 +1,155 @@
+Body{
+    background-color:black;
+    background-image: url(image/pig2.jpg);
+    background-attachment: fixed;
+    text-align: center; 
+    background-size: cover; 
+    margin: 0;
+}
+
+#header{
+height: 100px;
+background: color #252525;
+}
+#navigation{
+    height: 40px;
+    background-color: #575757;
+    text-align: center;
+}
+
+#headline{
+    height: 30px;
+    background-color: #848484;
+}
+
+#content{
+    height:800px;
+    background-color: white;
+    padding: 30px;
+    margin: auto;
+    
+}
+
+#write-up-1{
+    height: 150px;
+    border: 1px solid black;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color:gainsboro;
+    font-size: 20px;
+
+}
+#write-up-2{
+    height: 150px;
+    border: 1px solid black;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: gainsboro;
+    font-size: 20px;
+}
+
+#write-up-3{
+    height: 150px;
+    border: 1px solid black;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: gainsboro;
+    font-size: 20px;
+}
+
+
+#footer{
+    height: 50px;
+    background-color: #252525;
+    height:350px;
+}
+
+
+#headline marquee{
+    line-height: 30px;
+    color:black;
+}
+#navigation a{
+    color: yellowgreen;
+    text-decoration:dotted;
+    font-size: 20px;
+    padding: 0 30px;
+    line-height: 50px;
+}
+
+#footer-container{
+    height: 350px;
+    background-color: #222222;
+    
+}
+
+#footer-top{
+    width: 1000px;
+    height: 300px;
+    margin:auto;
+}    
+.footer-info h2{
+    color: goldenrod;
+    font-size: 30px;
+    font-style: oblique;   
+}
+
+.social-icon{
+   color: ghostwhite;
+}
+.social-icon2{
+   color: gainsboro;
+}
+
+.about h3{
+    height: 230px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 15px 0;
+    background-color:burlywood;
+}
+
+.about-picture{
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    float: left;
+    border-radius: 15px;
+}
+.about-picture img{
+    border-radius: 50%;
+}
+.about {
+    height: 230px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 25px 0;
+    background-color:burlywood;
+    font-size: 20px;
+}
+
+.about-picture{
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    float: left;
+    border-radius: 15px;
+}
+
+.Gallery img{
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    border-radius: 25px;
+    transition: 0.5s ease-in-out;
+}
+
+.Gallery img:hover{
+    transform: scale(1.1);
+    filter: grayscale(100);
+  
+}
+#contact table{
+    color: black;
+    border: 1px solid ;
+}
